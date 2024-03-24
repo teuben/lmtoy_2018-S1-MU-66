@@ -29,9 +29,9 @@ on['IRAS18151-1208'] = [ 90958, 91045, 91574]
 
 #        common parameters per source on the first dryrun (run1, run2)
 pars1 = {}
-pars1['IRAS05274+3345'] = "dv=250 dw=250 extent=200"
-pars1['IRAS05358+3543'] = "dv=250 dw=250 extent=200"
-pars1['IRAS18151-1208'] = "dv=250 dw=250 extent=200"
+pars1['IRAS05274+3345'] = "dv=80 dw=120 extent=200 vlsr=180 b_order=1" 
+pars1['IRAS05358+3543'] = "dv=80 dw=120 extent=200 vlsr=160 b_order=1" 
+pars1['IRAS18151-1208'] = "dv=80 dw=120 extent=200 vlsr=0   b_order=1"
 
 #        common parameters per source on subsequent runs (run1a, run2a)
 pars2 = {}
